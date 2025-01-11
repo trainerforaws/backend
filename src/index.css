@@ -1,0 +1,67 @@
+/* Set the background for the entire page to sky blue */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #94eb87; /* Sky blue background */
+}
+
+/* Centering the form on the page */
+.login-container, .signup-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto; /* Centers the form vertically with some spacing from top */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Styling the title */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input container for labels and inputs */
+div {
+  text-align: left; /* Aligning labels and inputs to the left */
+  margin-bottom: 15px;
+}
+
+/* Styling the input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Signup link styling */
+p a {
+  color: #FF5733; /* Bright orange-red color for the signup link */
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
